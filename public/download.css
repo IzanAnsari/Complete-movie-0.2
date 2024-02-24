@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    max-width: 800px;
+    /* background-color: #fff; */
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 40%;
+    
+    /* margin-left: 340px; */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-1 {
+    background-color: #3498db;
+    /* First button color */
+}
+
+.button-2 {
+    background-color: #d0b30e;
+    /* Second button color */
+}
+
+.button-3 {
+    background-color: #2ecc71;
+    /* Third button color */
+}
+
+.button-4 {
+    background-color: #e95032;
+    /* Second button color */
+}
+
+.button-5 {
+    background-color: #2ecc71;
+    /* Third button color */
+}
+
+/* Add more button styles as needed */
+
+button {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 61%;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    /* width: 19%; */
+}
+
+button:hover {
+    background-color: #4d4e4f;
+}
+
+.fa-download {
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 22px 22px;
+    color: #333;
+    font-size: 30px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 21px;
+    }
+    h3{
+        margin-top: 20%;
+        margin-left: -2%;
+    }
+
+    button {
+        margin-left: 20%;
+        height: 45px;
+        font-size: 15px;
+        width: 180px;
+    }/* text-align: right; */
+    
+}

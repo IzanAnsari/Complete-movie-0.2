@@ -1,0 +1,128 @@
+<!DOCTYPE html><!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="../public/search.css">
+    <link rel="stylesheet" href="../public/footer.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Search Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="../index.html" style="font-size: 30px; font-weight: bold;">StarkCinema</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="../index.html" style="font-size: 30px; font-weight: bold;">StarkCinema</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="../index.html" style="font-size: 20px; font-weight: bold;">Home</a></li>
+                    <li><a href="#" style="font-size: 20px; font-weight: bold;">Bollywood</a></li>
+                    <li><a href="#" style="font-size: 20px; font-weight: bold;">Hollywood</a></li>
+                    <li><a href="#" style="font-size: 20px; font-weight: bold;">WebSeries</a></li>
+                    <li><a href="#" style="font-size: 20px; font-weight: bold;">Horror</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <a href="./views/search.html"><div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <!-- <i class='bx bx-search search'></i> -->
+                    </div></a>
+
+                    <!-- <div class="search-field"></div> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <div class="gradient"></div>
+    <form id="search-bar">
+        <input type="text" id="movie" class="movie" placeholder="Search movies...">
+        <button type="submit">Search</button>
+        <div id="inputBox"></div>
+    </form>
+
+    <div id="result" style="margin-bottom: 40px; color: darkcyan;"></div>
+    <h2 class="h2">Hollywood Movies</h2>
+    <div id="container"></div>
+    <div id="pagination">
+        <button id="prevButton">Previous</button>
+        <span id="currentPage">1</span>
+        <span>/</span>
+        <span id="totalPages">1</span>
+        <button id="nextButton">Next</button>
+    </div>
+    
+
+    <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>Unlock a cinematic wonderland! Explore movies, watch trailers, and download your favorites effortlessly. Movie magic awaits you! 🎬✨
+              </p>
+            </div>
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="tel:+919359237760"><i class="fas fa-phone-volume"></i>9359237760</a>
+              </div>
+              <div class="email">
+                <a href="mailto:izanansari@gmail.com"><i class="fas fa-envelope"></i>izanansari@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Our Resource</div>
+            <div><a href="#">Hollywood Movies</a></div>
+            <div><a href="#">Action Movies</a></div>
+            <div><a href="#">Webseries</a></div>
+            <div><a href="#">Bollywood Movies</a></div>
+            <div><a href="#">Bollywood Romance</a></div>
+            <div><a href="#">Horror Movies</a></div>
+        </div>
+          <div class="right box">
+            <div class="topic">Subscribe us</div>
+            <form action="#">
+              <input type="text" placeholder="Enter email address">
+              <input type="submit" name="" value="Send">
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Copyright © 2020 <a href="#">CodingLab</a></p>
+        </div>
+      </footer>
+
+    <script src="../controller/searchMain.js"></script>
+    <Script src="../controller/sideBar.js"></Script>
+</body>
+
+</html>
