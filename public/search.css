@@ -275,13 +275,24 @@ h1 {
 }
 
 #search-bar {
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 25%;
     margin-top: 90px;
     margin-bottom: 10px;
     padding: 10px;
     /* background-color: #fff; */
     border-radius: 8px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+#inputBox{
+    position: absolute;
+    text-align: left;
+    /* margin-top: -19px; */
+    padding-top: 4px;
+    padding-left: 7px;
+    width: 400px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* margin-left: 5%; */
 }
 
 #movie {
@@ -295,16 +306,7 @@ h1 {
     width: 200px;
     /* height: 200px; */
 }
-#inputBox{
-    position: absolute;
-    text-align: left;
-    /* margin-top: -19px; */
-    padding-top: 4px;
-    padding-left: 7px;
-    width: 400px;
-    /* border: 1px solid rgb(0, 0, 0); */
-    margin-left: 317px;
-}
+
 
 #wrapper{
     margin-top: 50px;
@@ -422,7 +424,7 @@ h2{
     }
     #inputBox{
         margin-left: 1.5%;
-        width: 70%;
+        width: 50%;
         font-size: 13px;
     }
     
