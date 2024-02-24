@@ -419,13 +419,17 @@ h2{
 
 @media screen and (max-width: 600px) {
     #movie {
-        width: 75%; /* Full width for small screens */
+        width: 65%; /* Full width for small screens */
         font-size: 13px;
     }
     #inputBox{
         margin-left: 1.5%;
-        width: 50%;
+        width: 60%;
         font-size: 13px;
+    }
+    #search-bar{
+        /* width: 100%; */
+        margin-left: -1%;
     }
     
     #search-bar button {
